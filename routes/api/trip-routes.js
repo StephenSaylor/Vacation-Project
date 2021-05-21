@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Traveler, Trip, Location } = require("../../models");
+const { Trip, Traveler } = require("../../models");
 
 // GET all travelers and all Trips
 router.get("/", async (req, res) => {
